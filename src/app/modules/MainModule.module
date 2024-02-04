@@ -1,0 +1,29 @@
+{
+  "props": [],
+  "components": {
+    "player": {
+      "type": "script\\MediaPlayerScript",
+      "x": 112.0,
+      "y": 16.0,
+      "props": {
+        "autoplay": false,
+        "volume": "1.0",
+        "balance": "0.0",
+        "rate": "1.0",
+        "view": "mediaView"
+      }
+    },
+    "fileChooser": {
+      "type": "script\\FileChooserScript",
+      "x": 32.0,
+      "y": 16.0,
+      "props": {
+        "filterName": "All files",
+        "filterExtensions": "*.*",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    }
+  }
+}
